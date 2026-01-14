@@ -23,11 +23,11 @@ The system provides probability-based risk scores, local explanations for indivi
 ## Architecture
 
 Raw Data
-   ↓
+↓
 Data Preprocessing
-   ↓
+↓
 CatBoost Model
-   ↓
+↓
 Prediction & Risk Banding
 
 ---
