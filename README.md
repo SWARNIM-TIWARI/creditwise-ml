@@ -23,15 +23,12 @@ The system provides probability-based risk scores, local explanations for indivi
 ## Architecture
 
 Raw Data
-↓
+   ↓
 Data Preprocessing
-↓
-CatBoost Model (Tabular, Categorical-Aware)
-↓
+   ↓
+CatBoost Model
+   ↓
 Prediction & Risk Banding
-├── SHAP & LIME Explainability
-├── Fairness Metrics (Observational)
-└── Batch PDF Reports + Model Card
 
 ---
 
