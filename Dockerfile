@@ -16,8 +16,3 @@ ENV GRADIO_SERVER_NAME=0.0.0.0
 EXPOSE 7860
 
 CMD ["sh", "-c", "python run_pipeline.py && python app.py"]
-
-# ------------------------------
-# 7. Launch the app
-# ------------------------------
-CMD ["python", "run_pipeline.py"]
